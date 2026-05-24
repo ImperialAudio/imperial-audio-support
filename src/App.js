@@ -177,7 +177,7 @@ function ChatScreen({ category, user, onBack }) {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",
-          "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",
+          "x-api-key": "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",
           "anthropic-version": "2023-06-01",
           "anthropic-dangerous-direct-browser-access": "true"
         },
